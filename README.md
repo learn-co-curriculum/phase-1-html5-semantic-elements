@@ -84,7 +84,7 @@ Notice that in cases where the content within the element is not semanticly rela
 
 ### Some Semantic Elements Worth Knowing
 
-Next let's talk about the semantic meaning intended for each element so you have an idea of how they were meant to be used. As a developer there are no hard rules of how to configure these elements. We only have their intended menaing to work off of, so you should feel comfortable configuring them in a way that makes the most sense to you and best suits your layout needs. The following descriptions are as they are stated from Mozilla Developer Networks documentation.
+Next let's talk about the semantic meaning intended for each element so you have an idea of how they were meant to be used. As a developer there are no hard rules of how to configure these elements. We only have their intended meaning to work off of, so you should feel comfortable configuring them in a way that makes the most sense to you and best suits your layout needs. The following descriptions are as they are stated from Mozilla Developer Networks documentation.
 
 #### Article
 
@@ -173,3 +173,5 @@ Support for semantic elements is easily achieved in older browsers by linking to
 - [MDN - HTML - Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements' title='HTML5 Semantic Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
