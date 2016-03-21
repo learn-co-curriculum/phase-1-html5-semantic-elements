@@ -25,13 +25,13 @@ At the dawn of HTML, developers had but one common element that was used to crea
 </div>
 ```
 
-When the W3C (the organization that oversees the spec for HTML & CSS) started writing the spec for HTML5 they wanted to create new elements that would eliminate the need to label so many divs and make our code more readable for developers and more descriptive to browsers. Along with the help of Google hundreds of thousands of websites were scanned and all the most common id and class names we recorded. It turned out that many developers were in fact using the same names to label their elements. Such as `id="header"` or `"footer"`, `"main"`, `"nav"`, `"section"`, `"article"`, `"aside"`, etc. For each of these most common labels we now have elements we can use instead. So instead of
+When the W3C (the organization that oversees the spec for HTML & CSS) started writing the spec for HTML5 they wanted to create new elements that would eliminate the need to label so many divs and make our code more readable for developers and more descriptive to browsers. Along with the help of Google hundreds of thousands of websites were scanned and all the most common id and class names were recorded. It turned out that many developers were in fact using the same names to label their elements. Such as `id="header"` or `"footer"`, `"main"`, `"nav"`, `"section"`, `"article"`, `"aside"`, etc. For each of these most common labels we now have elements we can use instead. So instead of
 
 ```html
 <div id="header">...</div>
 ```
 
-instead we can use
+we can use
 
 ```html
 <header></header>
@@ -44,7 +44,7 @@ The one thing all semantic elements have in common is that we should use them wh
 > adjective
 >    relating to meaning in language or logic.
 
-To clarify all of the content in the `<header>` is all relating to introductory content or conatining navigational aids, just like the head of a document. let's take a div layout and convert it using semantic elments instead
+To clarify, all of the content in the `<header>` is relating to introductory content or conatining navigational aids, just like the head of a document. let's take a div layout and convert it using semantic elments instead
 
 ```html
 <div class="wrapper">
@@ -80,11 +80,11 @@ Now we'll convert it using HTML5 Semantic Elements
 </div>
 ```
 
-Notice that in cases where the content within the element is not semanticly related or we have the need to simply create a generic box such as the `wrapper`, we can still use divs as we please.
+Notice that in cases where the content within the element is not semantically related or we have the need to simply create a generic box such as the `wrapper`, we can still use divs as we please.
 
 ### Some Semantic Elements Worth Knowing
 
-Next let's talk about the semantic meaning intended for each element so you have an idea of how they were meant to be used. As a developer there are no hard rules of how to configure these elements. We only have their intended menaing to work off of, so you should feel comfortable configuring them in a way that makes the most sense to you and best suits your layout needs. The following descriptions are as they are stated from Mozilla Developer Networks documentation.
+Next let's talk about the semantic meaning intended for each element so you have an idea of how they were meant to be used. As a developer there are no hard rules of how to configure these elements. We only have their intended meaning to work off of, so you should feel comfortable configuring them in a way that makes the most sense to you and best suits your layout needs. The following descriptions are as they are stated from Mozilla Developer Networks documentation.
 
 #### Article
 
@@ -173,3 +173,5 @@ Support for semantic elements is easily achieved in older browsers by linking to
 - [MDN - HTML - Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements' title='HTML5 Semantic Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
