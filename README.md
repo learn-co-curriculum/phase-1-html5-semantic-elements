@@ -17,7 +17,7 @@ In this lesson we will learn about semantic elements, their purpose, and best pr
 
 ### A Brief History
 
-At the dawn of HTML, developers had but one common element that was used to create generic boxes and that my friend was the `<div>` element. Pages layouts at that time then became a sea of divs. This worked, but we needed a way to label them to distinguish one div from aother. This was largely done with id and class names such as 
+At the dawn of HTML, developers had but one common element that was used to create generic boxes and that my friend was the `<div>` element. Pages layouts at that time then became a sea of divs. This worked, but we needed a way to label them to distinguish one div from another. This was largely done with id and class names such as 
 
 ```html
 <div id="header">
@@ -44,7 +44,7 @@ The one thing all semantic elements have in common is that we should use them wh
 > adjective
 >    relating to meaning in language or logic.
 
-To clarify, all of the content in the `<header>` is relating to introductory content or conatining navigational aids, just like the head of a document. let's take a div layout and convert it using semantic elments instead
+To clarify, all of the content in the `<header>` is relating to introductory content or containing navigational aids, just like the head of a document. Let's take a div layout and convert it using semantic elements instead
 
 ```html
 <div class="wrapper">
