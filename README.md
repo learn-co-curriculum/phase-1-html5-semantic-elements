@@ -156,7 +156,7 @@ The HTML `<time>` element represents either a time on a 24-hour clock or a preci
 
 This element is intended to be used presenting dates and times in a machine readable format. This can be helpful for user agents to offer any event scheduling for user's calendar.
 
-### Older Broswer Support
+### Older Browser Support
 
 Support for semantic elements is easily achieved in older browsers by linking to both `modernizr.js` and `normalize.css` or an equivalent CSS reset file that tells all the semantic elements to display block. As time moves on this is less and less neccesary as older browsers are used less and less.
 
@@ -175,3 +175,5 @@ Support for semantic elements is easily achieved in older browsers by linking to
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements' title='HTML5 Semantic Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
