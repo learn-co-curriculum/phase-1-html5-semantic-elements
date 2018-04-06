@@ -158,7 +158,7 @@ This element is intended to be used presenting dates and times in a machine read
 
 ### Older Browser Support
 
-Support for semantic elements is easily achieved in older browsers by linking to both `modernizr.js` and `normalize.css` or an equivalent CSS reset file that tells all the semantic elements to display block. As time moves on this is less and less neccesary as older browsers are used less and less.
+With all new additions to HTML and JavaScript, legacy support for older browsers is a high priority when it comes to user experience. Designing websites to be fully functional for every user typically means building ways to 'gracefully degrade' the syntax and code used in order to support older browsers.  Look at your website in the newest version of Firefox and you will see all the bells and whistles, but even if you're using IE 4 (which you really really shouldn't be), you'll still see something that closely resembles your site.  Previously, this issue applied to semantic elements - since they are a newer way to write HTML, users with old browsers were not be able to interpret the HTML elements.  As of 2018, however, support for semantic elements is now at nearly 98% of all browsers in use, so feel free to use semantic elements in your HTML! 
 
 ## Summary
 
