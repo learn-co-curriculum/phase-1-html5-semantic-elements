@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-We have `div` elements to organize and label sections of HTML. But have you wondered if having so many `div` tags makes our HTML document look cluttered and confusing? Even when we identify or classify them with specific names, it's a lot to keep track of. It would be clearer for both developers and browsers if we could use more descriptive HTML elements to arrange our content. That's where semantic elements come in.
+We have `div` elements to organize and label sections of HTML. But too many `div` tags makes our HTML document look cluttered and confusing. Even when we identify or classify them with specific names, it's a lot to keep track of. It would be clearer for both developers and browsers if we could use more descriptive HTML elements to arrange our content. That's where semantic elements come in.
 
 ## Objectives
 
@@ -11,7 +11,7 @@ We have `div` elements to organize and label sections of HTML. But have you wond
  
 ## Explain the Historical Reasoning Behind Semantic Elements
 
-When developers first began defining containers to structure HTML, they had only one generic element available to them: the `div`. Creating complex page layouts then required dozens of `div` elements that were often difficult to organize or locate within the code. They needed a way to distinguish one `div` from another, which led to the use of `id` and `class` names to specify what they intended the `div` to contain.
+When developers first began defining containers to structure HTML, they had only one generic element available to them: the `div`. Creating complex page layouts then required dozens of `div` elements that were often difficult to organize or locate within the code. They needed a way to distinguish one `div` from another, which led to `id` and `class` attributes on elements being misused in an attempt to communicate what the `div` was doing. For example, a document usually has only one header, so it seemed sensible to write `div id="header"` as a way to say something stronger than, "this is a text division." Developers wanted to say, "this is a special block of introduction," but lacked the specific language to express it. They wanted those sections to have a semantic meaning.
 
 ```html
 <div id="header">
@@ -19,15 +19,15 @@ When developers first began defining containers to structure HTML, they had only
 </div>
 ```
 
-When the W3C (the organization that oversees the specifications for HTML and CSS) started writing the specification for HTML5 they wanted to create new elements that would eliminate the need to label so many `div` elements. The goals were to make the code more readable for developers and more descriptive for browsers. It turned out that many developers were already using the same names to label their elements, such as `id="header"` or `"footer"`, `"main"`, `"nav"`, `"section"`, `"article"`, `"aside"`, etc. So HTML5 provided semantic elements that explicitly described those functions for developer to use instead.
+When the W3C (the organization that oversees the specifications for HTML and CSS) started writing the specification for HTML5 they wanted to create new elements that would eliminate the need to label so many `div` elements. The goals were to make the code more readable for developers and more descriptive for browsers. It turned out that many developers were already using the same names to label their elements, such as `id="header"`, `id="footer"`, `id="nav"`, `class="article"`, etc. So HTML5 provided semantic elements that explicitly described those functions for developers to use instead.
 
-How does this look in practice? If, for example, we wanted to define a section of our HTML document to contain header content, we once used to have to identify a `div` as our header section.
+We once used to have to identify a `div` as our header section.
 
 ```html
 <div id="header">...</div>
 ```
 
-Now we can use the `header` element.
+Now we use the `header` element.
 
 ```html
 <header></header>
