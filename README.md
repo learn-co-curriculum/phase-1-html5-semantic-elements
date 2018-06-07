@@ -56,10 +56,10 @@ Now we use the `header` element.
 <header></header>
 ```
 
-Why do we call these semantic elements? Semantic elements are elements that we
-use when the content within the element all has the same related meaning. In our
-`header` example above, all the content we would put within the `header` element
-would relate to introductory content, such as titles or navigation.
+Why do we call these _semantic_ elements? Semantic elements are elements that
+we use when the content within the element all has the same related _meaning_.
+In our `header` example above, all the content we would put within the `header`
+element would relate to introductory content, such as titles or navigation.
 
 ## Demonstrate HTML5 Semantic Element Use
 
