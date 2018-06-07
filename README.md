@@ -15,13 +15,13 @@ lesson.
 
 1. Explain the historical reasoning behind semantic elements
 2. Demonstrate HTML5 semantic element use
- 
+
 ## Explain the Historical Reasoning Behind Semantic Elements
 
 When developers first began defining containers to structure HTML, they had only
 one generic element available to them: the `div`. Creating complex page layouts
 then required dozens of `div` elements that were often difficult to organize or
-locate within the code. They needed a way to distinguish one `div` from another,
+locate within the code. HTML authors needed a way to distinguish one `div` from another,
 which led to `id` and `class` attributes on elements being misused in an attempt
 to communicate what the `div` was doing. For example, a document usually has
 only one header, so it seemed sensible to write `div id="header"` as a way to
