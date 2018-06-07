@@ -6,20 +6,22 @@ We have `div` elements to organize and label sections of HTML. But too many
 `div` tags makes our HTML document look cluttered and confusing. Even when we
 identify or classify them with specific names, it's a lot to keep track of. It
 would be clearer for both developers and browsers if we could use more
-descriptive HTML elements to arrange our content. That's where semantic elements
-come in.
+descriptive HTML elements to arrange our content. That's where semantic
+elements come in. They allow us to say, "this isn't _just_ a division of text,
+it's a _header_." We'll learn more about these _semantic_ elements in this
+lesson.
 
 ## Objectives
 
 1. Explain the historical reasoning behind semantic elements
 2. Demonstrate HTML5 semantic element use
- 
+
 ## Explain the Historical Reasoning Behind Semantic Elements
 
 When developers first began defining containers to structure HTML, they had only
 one generic element available to them: the `div`. Creating complex page layouts
 then required dozens of `div` elements that were often difficult to organize or
-locate within the code. They needed a way to distinguish one `div` from another,
+locate within the code. HTML authors needed a way to distinguish one `div` from another,
 which led to `id` and `class` attributes on elements being misused in an attempt
 to communicate what the `div` was doing. For example, a document usually has
 only one header, so it seemed sensible to write `div id="header"` as a way to
@@ -54,10 +56,10 @@ Now we use the `header` element.
 <header></header>
 ```
 
-Why do we call these semantic elements? Semantic elements are elements that we
-use when the content within the element all has the same related meaning. In our
-`header` example above, all the content we would put within the `header` element
-would relate to introductory content, such as titles or navigation.
+Why do we call these _semantic_ elements? Semantic elements are elements that
+we use when the content within the element all has the same related _meaning_.
+In our `header` example above, all the content we would put within the `header`
+element would relate to introductory content, such as titles or navigation.
 
 ## Demonstrate HTML5 Semantic Element Use
 
