@@ -6,8 +6,10 @@ We have `div` elements to organize and label sections of HTML. But too many
 `div` tags makes our HTML document look cluttered and confusing. Even when we
 identify or classify them with specific names, it's a lot to keep track of. It
 would be clearer for both developers and browsers if we could use more
-descriptive HTML elements to arrange our content. That's where semantic elements
-come in.
+descriptive HTML elements to arrange our content. That's where semantic
+elements come in. They allow us to say, "this isn't _just_ a division of text,
+it's a _header_." We'll learn more about these _semantic_ elements in this
+lesson.
 
 ## Objectives
 
