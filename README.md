@@ -27,8 +27,10 @@ to communicate what the `div` was doing. For example, a document usually has
 only one header, so it seemed sensible to write `div id="header"` as a way to
 say something stronger than, "this is a text division." Developers wanted to
 say, "this is a special division of introduction," but lacked the specific language
-to express it. They wanted those sections to have a semantic meaning. But the
-HTML language simply didn't have the ability to meet this want. Many HTML authors
+to express it. They wanted those sections to have a _semantic meaning_ (more on that later). But the
+HTML language simply didn't have the ability to meet this need.
+
+Nevertheless, many HTML authors
 thought that this was a good idea and an informal standard sprang up around
 adding `id` attributes on elements to express their "semantic meaning."
 
