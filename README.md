@@ -128,5 +128,3 @@ generic boxes or grouping elements as needed.
 - [HTML5 Semantic Elements Lecture Video](https://www.youtube.com/embed/V28xLFEYaSQ)
 - [Dive into HTML5 - Semantic Elements](http://diveintohtml5.info/semantics.html#new-elements)
 - [MDN - HTML - Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Semantic-Elements' title='HTML5 Semantic Elements'>HTML5 Semantic Elements</a> on Learn.co and start learning to code for free.</p>
