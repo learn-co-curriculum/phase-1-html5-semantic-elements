@@ -124,7 +124,6 @@ generic boxes or grouping elements as needed.
 
 ## Resources
 
-- [Presentation Slides](https://docs.google.com/presentation/d/1tl0aB0EUOhLMi1Xr19UCAUTCY20FRqEDv-oDGg2cTkg/edit?usp=sharing)
 - [HTML5 Semantic Elements Lecture Video](https://www.youtube.com/embed/V28xLFEYaSQ)
 - [Dive into HTML5 - Semantic Elements](http://diveintohtml5.info/semantics.html#new-elements)
 - [MDN - HTML - Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
